@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_67826125-fece-4788-b908-6302f64e6644",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/blast#}kmer": "TATAGTGAGT",
+                "{http://kim.bio.upenn.edu/provDefs/blast#}number-reads": "5000",
+                "{http://kim.bio.upenn.edu/provDefs/sample#}species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "75"
+            }
+        },
+        {
+            "name": "kimlab:_f02554f9-1205-4a4a-abdb-5434a318c9e8",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/trim#}remove-N": "1",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}contaminants-file": "/lab/repo/resources/trim/contaminants.fa",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}is-single-end": "1",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}minimum-length": "20",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}phred-threshold": "53",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}number-AT": "26"
+            }
+        },
+        {
+            "name": "kimlab:_7638e585-fb8b-4a6f-87fb-0c22052bb9fd",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/sample#}species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "75",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}is-single-end": "1"
+            }
+        },
+        {
+            "name": "kimlab:_c1c92ae8-e4f6-446b-a105-2fdabd625270",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/verse#}id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}include-lines-sines": "1",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}include-introns": "1",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}is-stranded": "1",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}include-intergenic": "1"
+            }
+        },
+        {
+            "name": "kimlab:_c3860fde-2abf-44d6-958a-d6112d15d1b6",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}run-number": "243",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}sequencingDate": "2015-06-03",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}kit": "unknown",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}notes": "E.243. For sequencing, v1 reagents were used but unknown if mid or high output.\n",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}base-calling": "unknown",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "75",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}description": "BRP278-282",
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}is-single-end": "1"
+            }
+        }
+    ],
+    "links": [
+        {
+            "name": "linkto",
+            "source": "kimlab:_67826125-fece-4788-b908-6302f64e6644",
+            "weight": 1,
+            "target": "kimlab:_c3860fde-2abf-44d6-958a-d6112d15d1b6"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_7638e585-fb8b-4a6f-87fb-0c22052bb9fd",
+            "weight": 1,
+            "target": "kimlab:_f02554f9-1205-4a4a-abdb-5434a318c9e8"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_c1c92ae8-e4f6-446b-a105-2fdabd625270",
+            "weight": 1,
+            "target": "kimlab:_7638e585-fb8b-4a6f-87fb-0c22052bb9fd"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_f02554f9-1205-4a4a-abdb-5434a318c9e8",
+            "weight": 1,
+            "target": "kimlab:_c3860fde-2abf-44d6-958a-d6112d15d1b6"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_bfdfc461-de10-402a-97fc-e22324a76051",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/blast#}kmer": null,
+                "{http://kim.bio.upenn.edu/provDefs/sample#}species": "hg19.gencode18.100"
+            }
+        },
+        {
+            "name": "kimlab:_48065d22-882b-452b-9999-d41477d49dbd",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/trim#}remove-N": "1",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}contaminants-file": "/lab/repo/resources/trim/contaminants.fa",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}minimum-length": "20",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}number-AT": "26"
+            }
+        },
+        {
+            "name": "kimlab:_4595af9f-812b-452b-bba3-81e07a5377c6",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/sample#}species": "hg19.gencode18.100"
+            }
+        },
+        {
+            "name": "kimlab:_04b9191d-16a2-478a-b41d-26ba555032f4",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/htseq#}is-stranded": "1"
+            }
+        },
+        {
+            "name": "kimlab:_8cfd735c-3110-444b-a4fa-f984cc3e4951",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}run-number": "142",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}sequencingDate": "2014-04-16",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}kit": "unknown",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}notes": "\n",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}base-calling": "CASAVA v1.8.2",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "100",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}description": "CM194-198 & CM199-203",
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}is-single-end": "0"
+            }
+        }
+    ],
+    "links": [
+        {
+            "name": "linkto",
+            "source": "kimlab:_04b9191d-16a2-478a-b41d-26ba555032f4",
+            "weight": 1,
+            "target": "kimlab:_4595af9f-812b-452b-bba3-81e07a5377c6"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_48065d22-882b-452b-9999-d41477d49dbd",
+            "weight": 1,
+            "target": "kimlab:_8cfd735c-3110-444b-a4fa-f984cc3e4951"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_4595af9f-812b-452b-bba3-81e07a5377c6",
+            "weight": 1,
+            "target": "kimlab:_48065d22-882b-452b-9999-d41477d49dbd"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_bfdfc461-de10-402a-97fc-e22324a76051",
+            "weight": 1,
+            "target": "kimlab:_8cfd735c-3110-444b-a4fa-f984cc3e4951"
+        }
+    ]
+}

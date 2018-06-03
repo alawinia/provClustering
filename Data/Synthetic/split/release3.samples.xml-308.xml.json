@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_4a54bb8b-a8ef-4daf-b4ae-76e95c934158",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/blast#}kmer": "TATAGTGAGT",
+                "{http://kim.bio.upenn.edu/provDefs/blast#}number-reads": "5000",
+                "{http://kim.bio.upenn.edu/provDefs/sample#}species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "100"
+            }
+        },
+        {
+            "name": "kimlab:_f56ed08a-62be-482b-a85a-5abbb9a1cec7",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/trim#}remove-N": "1",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}contaminants-file": "/lab/repo/resources/trim/contaminants.fa",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}is-single-end": "0",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}minimum-length": "20",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}phred-threshold": "53",
+                "{http://kim.bio.upenn.edu/provDefs/trim#}number-AT": "26"
+            }
+        },
+        {
+            "name": "kimlab:_22cede94-cabb-4ada-b0d0-b4ac742e7627",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/sample#}species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "100",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}is-single-end": "0"
+            }
+        },
+        {
+            "name": "kimlab:_aa776aa8-dfb2-45f2-b7d0-0856a137f51a",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/verse#}id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}include-lines-sines": "1",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}include-introns": "1",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}is-stranded": "1",
+                "{http://kim.bio.upenn.edu/provDefs/verse#}include-intergenic": "1"
+            }
+        },
+        {
+            "name": "kimlab:_09e5decb-f727-4fa6-ab85-0104e53af520",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}run-number": "251",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}sequencingDate": "2015-06-09",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}kit": "Illumina CT-402-4001, PE-402-4001, FC-402-4001",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}notes": "E.251\n",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}base-calling": "CASAVA v1.8.2",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}read-length": "100",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}description": "Brp293-297&CM579-583 ",
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://kim.bio.upenn.edu/provDefs/sequencing#}is-single-end": "0"
+            }
+        }
+    ],
+    "links": [
+        {
+            "name": "linkto",
+            "source": "kimlab:_aa776aa8-dfb2-45f2-b7d0-0856a137f51a",
+            "weight": 1,
+            "target": "kimlab:_22cede94-cabb-4ada-b0d0-b4ac742e7627"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_f56ed08a-62be-482b-a85a-5abbb9a1cec7",
+            "weight": 1,
+            "target": "kimlab:_09e5decb-f727-4fa6-ab85-0104e53af520"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_4a54bb8b-a8ef-4daf-b4ae-76e95c934158",
+            "weight": 1,
+            "target": "kimlab:_09e5decb-f727-4fa6-ab85-0104e53af520"
+        },
+        {
+            "name": "linkto",
+            "source": "kimlab:_22cede94-cabb-4ada-b0d0-b4ac742e7627",
+            "weight": 1,
+            "target": "kimlab:_f56ed08a-62be-482b-a85a-5abbb9a1cec7"
+        }
+    ]
+}
