@@ -1,0 +1,251 @@
+{
+    "nodes": [
+        {
+            "name": "VID12018-04-18 18:43:27.021176",
+            "group": 0,
+            "attributes": {
+                "tLink": "null",
+                "Client": "10.1.1.54",
+                "Server": "10.1.1.1"
+            }
+        },
+        {
+            "name": "VID22018-04-18 18:43:27.021182",
+            "group": 0,
+            "attributes": {
+                "syn": "null",
+                "Server": "10.1.1.1",
+                "Client": "10.1.1.54",
+                "synRequest": 14513
+            }
+        },
+        {
+            "name": "VID32018-04-18 18:43:27.021189",
+            "group": 0,
+            "attributes": {
+                "synAck": "null",
+                "Client": "10.1.1.54",
+                "Server": "10.1.1.1",
+                "synResponse": 14613,
+                "synAckRequest": 78535
+            }
+        },
+        {
+            "name": "VID42018-04-18 18:43:27.021194",
+            "group": 0,
+            "attributes": {
+                "syn": "null",
+                "Server": "10.1.1.1",
+                "Client": "10.1.1.54",
+                "synRequest": 53415
+            }
+        },
+        {
+            "name": "VID52018-04-18 18:43:27.021198",
+            "group": 0,
+            "attributes": {
+                "synAck": "null",
+                "Client": "10.1.1.54",
+                "Server": "10.1.1.1",
+                "synResponse": 53515,
+                "synAckRequest": 54077
+            }
+        },
+        {
+            "name": "VID62018-04-18 18:43:27.021202",
+            "group": 0,
+            "attributes": {
+                "syn": "null",
+                "Server": "10.1.1.1",
+                "Client": "10.1.1.54",
+                "synRequest": 38119
+            }
+        },
+        {
+            "name": "VID72018-04-18 18:43:27.021205",
+            "group": 0,
+            "attributes": {
+                "synAck": "null",
+                "Client": "10.1.1.54",
+                "Server": "10.1.1.1",
+                "synResponse": 38219,
+                "synAckRequest": 38944
+            }
+        },
+        {
+            "name": "VID82018-04-18 18:43:27.021209",
+            "group": 0,
+            "attributes": {
+                "syn": "null",
+                "Server": "10.1.1.1",
+                "Client": "10.1.1.54",
+                "synRequest": 60852
+            }
+        },
+        {
+            "name": "VID92018-04-18 18:43:27.021213",
+            "group": 0,
+            "attributes": {
+                "synAck": "null",
+                "Client": "10.1.1.54",
+                "Server": "10.1.1.1",
+                "synResponse": 60952,
+                "synAckRequest": 19425
+            }
+        },
+        {
+            "name": "RID12018-04-18 18:43:27.021217",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r1"
+            }
+        },
+        {
+            "name": "RID22018-04-18 18:43:27.021219",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r2"
+            }
+        },
+        {
+            "name": "RID32018-04-18 18:43:27.021221",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r1"
+            }
+        },
+        {
+            "name": "RID42018-04-18 18:43:27.021224",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r2"
+            }
+        },
+        {
+            "name": "RID52018-04-18 18:43:27.021226",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r1"
+            }
+        },
+        {
+            "name": "RID62018-04-18 18:43:27.021228",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r2"
+            }
+        },
+        {
+            "name": "RID72018-04-18 18:43:27.021230",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r1"
+            }
+        },
+        {
+            "name": "RID82018-04-18 18:43:27.021232",
+            "group": 1,
+            "attributes": {
+                "ruleID": "r2"
+            }
+        }
+    ],
+    "links": [
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID12018-04-18 18:43:27.021176",
+            "target": "RID12018-04-18 18:43:27.021217"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID12018-04-18 18:43:27.021217",
+            "target": "VID22018-04-18 18:43:27.021182"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID22018-04-18 18:43:27.021182",
+            "target": "RID22018-04-18 18:43:27.021219"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID22018-04-18 18:43:27.021219",
+            "target": "VID32018-04-18 18:43:27.021189"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID12018-04-18 18:43:27.021176",
+            "target": "RID32018-04-18 18:43:27.021221"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID32018-04-18 18:43:27.021221",
+            "target": "VID42018-04-18 18:43:27.021194"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID42018-04-18 18:43:27.021194",
+            "target": "RID42018-04-18 18:43:27.021224"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID42018-04-18 18:43:27.021224",
+            "target": "VID52018-04-18 18:43:27.021198"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID12018-04-18 18:43:27.021176",
+            "target": "RID52018-04-18 18:43:27.021226"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID52018-04-18 18:43:27.021226",
+            "target": "VID62018-04-18 18:43:27.021202"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID62018-04-18 18:43:27.021202",
+            "target": "RID62018-04-18 18:43:27.021228"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID62018-04-18 18:43:27.021228",
+            "target": "VID72018-04-18 18:43:27.021205"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID12018-04-18 18:43:27.021176",
+            "target": "RID72018-04-18 18:43:27.021230"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID72018-04-18 18:43:27.021230",
+            "target": "VID82018-04-18 18:43:27.021209"
+        },
+        {
+            "name": "VIDtoRID",
+            "weight": 1,
+            "source": "VID82018-04-18 18:43:27.021209",
+            "target": "RID82018-04-18 18:43:27.021232"
+        },
+        {
+            "name": "RIDtoVID",
+            "weight": 1,
+            "source": "RID82018-04-18 18:43:27.021232",
+            "target": "VID92018-04-18 18:43:27.021213"
+        }
+    ]
+}
