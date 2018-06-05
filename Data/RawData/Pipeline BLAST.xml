@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/provDefs/"
+			   >
+
+    <!-- Definitions for BLAST module in pipeline. -->
+
+    <!-- ENTITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:entity prov:id="kimlab:_81ca46c2-2ee0-37d0-af3c-7ba283c20e59">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibraryBlast</prov:type>
+		<foaf:name>nt</foaf:name>
+		<!-- could include creation date, MD5, etc -->
+	</prov:entity>
+	
+    <!-- AGENT xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:agent prov:id="kimlab:_aa7c3fa8-b503-3b3c-bda5-f39c91fc0a87">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>blastn</foaf:name>
+		<pp:version>2.2.30</pp:version>
+		<!-- could include location, MD5, etc -->
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_2dbf6bb2-ce33-4a8f-bc9b-dbf927475a63">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>blastn</foaf:name>
+		<pp:version>2.2.25</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_df0d4441-b147-3a3c-8156-b19faa3c4995">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>parseBlast.py</foaf:name>
+		<pp:version>1.1</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_74f7c7fb-9f70-4511-b71b-97c6fd42e1ac">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>parseBlast.py</foaf:name>
+		<pp:version>1.5</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_192a9bf0-86f6-4264-85a9-eaa7f13acfbf">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>parseBlast.py</foaf:name>
+		<pp:version>1.8</pp:version>
+	</prov:agent>
+	
+</prov:document>
+

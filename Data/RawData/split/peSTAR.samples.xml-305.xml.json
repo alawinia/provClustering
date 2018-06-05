@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_c021f8e3-33aa-41e6-a84a-f9e031e1eef2",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-kmer": null
+            }
+        },
+        {
+            "name": "kimlab:_7e700631-3ffc-4848-b8c1-ba263a01a6c4",
+            "group": 1
+        },
+        {
+            "name": "kimlab:_365d0b2c-fc87-49ea-9306-1ec227fed7e8",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-minlen": "20",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-remove-n": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-num-at": "26",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-phred-thresh": "53",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-contamfile": "/lab/repo/resources/trim/contaminants.fa"
+            }
+        },
+        {
+            "name": "kimlab:_15e82b8e-24f6-4ed5-8203-51b01aa8243e",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-se": "0"
+            }
+        },
+        {
+            "name": "kimlab:_7640655d-4d34-473d-bb95-a33ab62045d4",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-stranded": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-introns": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-intergenic": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-lines-sines": "1"
+            }
+        },
+        {
+            "name": "kimlab:_2b698372-ab18-445f-95e6-5d73c5838b48",
+            "group": 1,
+            "attributes": {
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://purl.obolibrary.org/obo/}MS_1002120": "185",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000069": "2014-09-10",
+                "{http://kim.bio.upenn.edu/o/sequencing#}description": "CM389-393 & CM394-398",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000081": "unknown",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000020": "100",
+                "{http://purl.obolibrary.org/obo/}OBI_0600047": "transcript analysis by paired-end tag sequencing",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000045": "CASAVA v1.8.2",
+                "{http://kim.bio.upenn.edu/o/sequencing#}experiment-notes": null
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_c021f8e3-33aa-41e6-a84a-f9e031e1eef2",
+            "target": "kimlab:_2b698372-ab18-445f-95e6-5d73c5838b48",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_7e700631-3ffc-4848-b8c1-ba263a01a6c4",
+            "target": "kimlab:_2b698372-ab18-445f-95e6-5d73c5838b48",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_365d0b2c-fc87-49ea-9306-1ec227fed7e8",
+            "target": "kimlab:_2b698372-ab18-445f-95e6-5d73c5838b48",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_15e82b8e-24f6-4ed5-8203-51b01aa8243e",
+            "target": "kimlab:_365d0b2c-fc87-49ea-9306-1ec227fed7e8",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_7640655d-4d34-473d-bb95-a33ab62045d4",
+            "target": "kimlab:_15e82b8e-24f6-4ed5-8203-51b01aa8243e",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

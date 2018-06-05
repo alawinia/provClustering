@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_5de4e6cc-d6a6-499f-985d-0dcdf8f5f9a7",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-kmer": null
+            }
+        },
+        {
+            "name": "kimlab:_0cc28a7d-cb89-4207-ad51-de11fd42444c",
+            "group": 1
+        },
+        {
+            "name": "kimlab:_2c8ca61f-11c3-47d2-beb7-1a11cc0db8ab",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-minlen": "20",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-remove-n": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-num-at": "26",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-phred-thresh": "53",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-contamfile": "/lab/repo/resources/trim/contaminants.fa"
+            }
+        },
+        {
+            "name": "kimlab:_1642fe7e-ff22-4f6a-982f-c2d4903ae52c",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-readlength": "75",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-se": "0"
+            }
+        },
+        {
+            "name": "kimlab:_33afdd8f-e282-4c07-a666-5228de054856",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-stranded": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-introns": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-intergenic": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-lines-sines": "1"
+            }
+        },
+        {
+            "name": "kimlab:_e481779d-d9ef-4fb7-8ccf-15b275d053a9",
+            "group": 1,
+            "attributes": {
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://purl.obolibrary.org/obo/}MS_1002120": "160",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000069": "2014-07-07",
+                "{http://kim.bio.upenn.edu/o/sequencing#}description": "CM297-301",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000081": "unknown",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000020": "75",
+                "{http://purl.obolibrary.org/obo/}OBI_0600047": "transcript analysis by paired-end tag sequencing",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000045": "unknown",
+                "{http://kim.bio.upenn.edu/o/sequencing#}experiment-notes": null
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_5de4e6cc-d6a6-499f-985d-0dcdf8f5f9a7",
+            "target": "kimlab:_e481779d-d9ef-4fb7-8ccf-15b275d053a9",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_0cc28a7d-cb89-4207-ad51-de11fd42444c",
+            "target": "kimlab:_e481779d-d9ef-4fb7-8ccf-15b275d053a9",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_2c8ca61f-11c3-47d2-beb7-1a11cc0db8ab",
+            "target": "kimlab:_e481779d-d9ef-4fb7-8ccf-15b275d053a9",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_1642fe7e-ff22-4f6a-982f-c2d4903ae52c",
+            "target": "kimlab:_2c8ca61f-11c3-47d2-beb7-1a11cc0db8ab",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_33afdd8f-e282-4c07-a666-5228de054856",
+            "target": "kimlab:_1642fe7e-ff22-4f6a-982f-c2d4903ae52c",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

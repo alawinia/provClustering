@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/provDefs/"
+			   >
+
+    <!-- Definitions for FASTQC module in pipeline. -->
+
+    <!-- ENTITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+    <!-- AGENT xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:agent prov:id="kimlab:_855d4533-d12d-44b6-ab94-b15483dd4d42">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>FastQC</foaf:name>
+		<pp:version>0.10.1</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_1aebed36-ebf6-4922-b1f7-8829562d0100">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>FastQC</foaf:name>
+		<pp:version>0.11.2</pp:version>
+	</prov:agent>
+
+</prov:document>
+

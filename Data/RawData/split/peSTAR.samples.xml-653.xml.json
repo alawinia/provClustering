@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_c39bb769-a784-4ee3-8919-875e4c2b22be",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-kmer": null
+            }
+        },
+        {
+            "name": "kimlab:_9231e116-837e-44fc-bac2-3ef1efa3303b",
+            "group": 1
+        },
+        {
+            "name": "kimlab:_18d00342-cb5d-452b-ae2f-c188ca11d670",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-minlen": "20",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-remove-n": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-num-at": "26",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-phred-thresh": "53",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-contamfile": "/lab/repo/resources/trim/contaminants.fa"
+            }
+        },
+        {
+            "name": "kimlab:_3f29f266-1cc7-41f1-a8e1-74ecb9a7562e",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-se": "0"
+            }
+        },
+        {
+            "name": "kimlab:_65529373-2636-4bd0-84e4-7f74d1b5f939",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-stranded": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-introns": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-intergenic": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-lines-sines": "1"
+            }
+        },
+        {
+            "name": "kimlab:_efb785c5-1be2-43b7-8163-517c24bb1382",
+            "group": 1,
+            "attributes": {
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://purl.obolibrary.org/obo/}MS_1002120": "206",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000069": "2015-01-15",
+                "{http://kim.bio.upenn.edu/o/sequencing#}description": "CM462-465; Single cells dissected into separate somatic and dendritic samples. Exp B + ExpH",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000081": "unknown",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000020": "100",
+                "{http://purl.obolibrary.org/obo/}OBI_0600047": "transcript analysis by paired-end tag sequencing",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000045": "CASAVA v1.8.2",
+                "{http://kim.bio.upenn.edu/o/sequencing#}experiment-notes": null
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_c39bb769-a784-4ee3-8919-875e4c2b22be",
+            "target": "kimlab:_efb785c5-1be2-43b7-8163-517c24bb1382",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_9231e116-837e-44fc-bac2-3ef1efa3303b",
+            "target": "kimlab:_efb785c5-1be2-43b7-8163-517c24bb1382",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_18d00342-cb5d-452b-ae2f-c188ca11d670",
+            "target": "kimlab:_efb785c5-1be2-43b7-8163-517c24bb1382",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_3f29f266-1cc7-41f1-a8e1-74ecb9a7562e",
+            "target": "kimlab:_18d00342-cb5d-452b-ae2f-c188ca11d670",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_65529373-2636-4bd0-84e4-7f74d1b5f939",
+            "target": "kimlab:_3f29f266-1cc7-41f1-a8e1-74ecb9a7562e",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

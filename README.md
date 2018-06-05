@@ -3,5 +3,6 @@ Several workflow management systems and scripting languages have adopted provena
 
 # Data
 Data/Synthetic: Contains synthetic data. Each of the XML files contains a processed, reorganized and cleaned provenance graphs. Each of the JSON files contains a corresponding APG. The first part of the filename indicates its corresponding workflow label. Some synthetic data does not have XML file. 
-Data/Real: Contains the APG of real processed, reorganized and cleaned dataset. 
-The data already has some noise files added. 
+Data/Real: Contains the APG of real processed, reorganized and cleaned dataset. The data already has some noise files added. 
+Data/RawData: One version of NGS biological provenance graphs in the original, combat form. 
+Data/Network: Some optional, simple APG graphs from network domain to play with. 

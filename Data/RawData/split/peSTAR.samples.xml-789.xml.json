@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_522351cd-8fca-4ad3-888b-f7702ea78db8",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-species": "hg19.gencode18.100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-kmer": null
+            }
+        },
+        {
+            "name": "kimlab:_2c3af7bd-f6ac-4fdd-a373-eb7318c3914d",
+            "group": 1
+        },
+        {
+            "name": "kimlab:_5215722f-b500-40f4-8f9e-a7b6d49313e0",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-minlen": "30",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-remove-n": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-num-at": "30",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-contamfile": "/lab/repo/resources/trim/contaminants.fa"
+            }
+        },
+        {
+            "name": "kimlab:_c921f613-eab6-44b0-b4e5-ac83b8bd596e",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg19.gencode18.100"
+            }
+        },
+        {
+            "name": "kimlab:_9f35c749-aaca-47f1-93f9-114d5aa976ad",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}htseq-stranded": "1"
+            }
+        },
+        {
+            "name": "kimlab:_b31266ad-e616-445b-a711-ac8969228aee",
+            "group": 1,
+            "attributes": {
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://purl.obolibrary.org/obo/}MS_1002120": "130",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000069": "2014-02-11",
+                "{http://kim.bio.upenn.edu/o/sequencing#}description": "JFM3/CM90 and YH227b_CM94-101",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000081": "unknown",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000020": "100",
+                "{http://purl.obolibrary.org/obo/}OBI_0600047": "transcript analysis by paired-end tag sequencing",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000045": "CASAVA v1.8.2",
+                "{http://kim.bio.upenn.edu/o/sequencing#}experiment-notes": null
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_522351cd-8fca-4ad3-888b-f7702ea78db8",
+            "target": "kimlab:_b31266ad-e616-445b-a711-ac8969228aee",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_2c3af7bd-f6ac-4fdd-a373-eb7318c3914d",
+            "target": "kimlab:_b31266ad-e616-445b-a711-ac8969228aee",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_5215722f-b500-40f4-8f9e-a7b6d49313e0",
+            "target": "kimlab:_b31266ad-e616-445b-a711-ac8969228aee",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_c921f613-eab6-44b0-b4e5-ac83b8bd596e",
+            "target": "kimlab:_5215722f-b500-40f4-8f9e-a7b6d49313e0",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_9f35c749-aaca-47f1-93f9-114d5aa976ad",
+            "target": "kimlab:_c921f613-eab6-44b0-b4e5-ac83b8bd596e",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

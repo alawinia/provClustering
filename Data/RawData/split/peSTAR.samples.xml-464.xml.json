@@ -1,0 +1,97 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_1445423b-039b-41eb-9317-f96506b5950e",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-species": "hg38.gencode25",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-numreads": "5000",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-kmer": "TATAGTGAGT"
+            }
+        },
+        {
+            "name": "kimlab:_75f24c56-0cc2-4a05-b8e3-5633787aabd7",
+            "group": 1
+        },
+        {
+            "name": "kimlab:_094ec6e2-6324-4a30-9042-275f114e6532",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-minlen": "20",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-remove-n": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-num-at": "26",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-se": "0",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-phred-thresh": "53",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-contamfile": "/lab/repo/resources/trim/contaminants.fa"
+            }
+        },
+        {
+            "name": "kimlab:_38975a36-4020-44bb-aeaf-b43e01f38f3c",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg38.gencode25.100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-se": "0"
+            }
+        },
+        {
+            "name": "kimlab:_902e2873-0a7d-4ef3-9123-64fdf1767496",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-stranded": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-introns": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-intergenic": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-lines-sines": "1"
+            }
+        },
+        {
+            "name": "kimlab:_34bd3e43-6464-4041-bd02-48bdbc90529f",
+            "group": 1,
+            "attributes": {
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://purl.obolibrary.org/obo/}MS_1002120": "298",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000069": "2016-01-14",
+                "{http://kim.bio.upenn.edu/o/sequencing#}description": "CM748-751 & CM770-772",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000081": "Illumina CT-402-4001, PE-402-4002, FC-402-4021",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000020": "100",
+                "{http://purl.obolibrary.org/obo/}OBI_0600047": "transcript analysis by paired-end tag sequencing",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000045": "bcl2fastq v1.8.4",
+                "{http://kim.bio.upenn.edu/o/sequencing#}experiment-notes": null
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_1445423b-039b-41eb-9317-f96506b5950e",
+            "target": "kimlab:_34bd3e43-6464-4041-bd02-48bdbc90529f",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_75f24c56-0cc2-4a05-b8e3-5633787aabd7",
+            "target": "kimlab:_34bd3e43-6464-4041-bd02-48bdbc90529f",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_094ec6e2-6324-4a30-9042-275f114e6532",
+            "target": "kimlab:_34bd3e43-6464-4041-bd02-48bdbc90529f",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_38975a36-4020-44bb-aeaf-b43e01f38f3c",
+            "target": "kimlab:_094ec6e2-6324-4a30-9042-275f114e6532",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_902e2873-0a7d-4ef3-9123-64fdf1767496",
+            "target": "kimlab:_38975a36-4020-44bb-aeaf-b43e01f38f3c",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:obo="http://purl.obolibrary.org/obo/"
+			   xmlns:efo="http://www.ebi.ac.uk/efo/"
+			   xmlns:ornaseq="http://kim.bio.upenn.edu/o/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/o/sequencing#"
+			   >
+
+  <prov:entity prov:id="kimlab:_c4d7781c-0ea9-429d-83e7-ccb9634ded1a">
+    <obo:IAO_0000577>BRP81</obo:IAO_0000577>
+    <kimlab:lane>BRP80-107</kimlab:lane>
+    <kimlab:barcodeidx>7</kimlab:barcodeidx>
+    <obo:OBI_0001895>J. Lee</obo:OBI_0001895>
+    <obo:OMIABIS_0001039 xsi:type="xsd:date">2014-12-04</obo:OMIABIS_0001039>
+    <kimlab:first-strand-amp-by></kimlab:first-strand-amp-by>
+    <kimlab:first-strand-amp-date xsi:type="xsd:date">1999-01-01</kimlab:first-strand-amp-date>
+    <ornaseq:ORNASEQ_0000014>T. Bell</ornaseq:ORNASEQ_0000014>
+    <ornaseq:ORNASEQ_0000005 xsi:type="xsd:date">2015-04-19</ornaseq:ORNASEQ_0000005>
+    <ornaseq:ORNASEQ_0000015>M. Garcia</ornaseq:ORNASEQ_0000015>
+    <ornaseq:ORNASEQ_0000006 xsi:type="xsd:date">2015-04-30</ornaseq:ORNASEQ_0000006>
+    <obo:TAXRANK_0000031>Human</obo:TAXRANK_0000031>
+    <obo:OBI_0001185>N/A</obo:OBI_0001185>
+    <obo:OBI_0001169>63 years old</obo:OBI_0001169>
+    <ornaseq:ORNASEQ_0000001 xsi:type="xsd:integer">19</ornaseq:ORNASEQ_0000001>
+    <obo:OBI_0000659>pipette</obo:OBI_0000659>
+    <ornaseq:ORNASEQ_0000033></ornaseq:ORNASEQ_0000033>
+    <ornaseq:ORNASEQ_0000028>N/A</ornaseq:ORNASEQ_0000028>
+    <kimlab:is-harvest-compound-uncaged></kimlab:is-harvest-compound-uncaged>
+    <obo:UBERON_0000465>brain</obo:UBERON_0000465>
+    <ornaseq:ORNASEQ_0000026>cortex</ornaseq:ORNASEQ_0000026>
+    <obo:CL_0000000>Neuron</obo:CL_0000000>
+    <obo:CL_2000029></obo:CL_2000029>
+    <obo:OBI_0000018></obo:OBI_0000018>
+    <ornaseq:ORNASEQ_0000034>culture</ornaseq:ORNASEQ_0000034>
+    <ornaseq:ORNASEQ_0000035>single cell</ornaseq:ORNASEQ_0000035>
+    <obo:GO_0044464>Dendrite</obo:GO_0044464>
+    <obo:OBI_0000097>SCE-mRNA-PN-0050</obo:OBI_0000097>
+    <kimlab:cell-id>10</kimlab:cell-id>
+    <kimlab:dendrite-id>5</kimlab:dendrite-id>
+    <kimlab:source-well-id></kimlab:source-well-id>
+    <obo:OGMS_0000090>N/A</obo:OGMS_0000090>
+    <efo:EFO_0000683></efo:EFO_0000683>
+    <obo:OBI_0600058>aRNA</obo:OBI_0600058>
+    <ornaseq:ORNASEQ_0000022 xsi:type="xsd:integer">2</ornaseq:ORNASEQ_0000022>
+    <obo:OBI_0001967>7 - CAGATC</obo:OBI_0001967>
+    <ornaseq:ORNASEQ_0000029>none</ornaseq:ORNASEQ_0000029>
+    <ornaseq:ORNASEQ_0000030>100ng</ornaseq:ORNASEQ_0000030>
+    <obo:GENEPIO_0000085>Illumina TruSeq Stranded (RS-122-2101/2)</obo:GENEPIO_0000085>
+    <kimlab:strand-specific xsi:type="xsd:boolean">1</kimlab:strand-specific>
+    <ornaseq:ORNASEQ_0000021>15</ornaseq:ORNASEQ_0000021>
+    <ornaseq:ORNASEQ_0000009>V3_TJB_Single_Cell_aRNA</ornaseq:ORNASEQ_0000009>
+    <ornaseq:ORNASEQ_0000017>TRUSEQ PROTOCOL</ornaseq:ORNASEQ_0000017>
+    <ornaseq:ORNASEQ_0000007>phs000833 r5</ornaseq:ORNASEQ_0000007>
+    <kimlab:notes></kimlab:notes>
+  </prov:entity>
+
+  <prov:entity prov:id="kimlab:_8008a7fc-6908-4b79-b7a8-29abf1d9fbd9">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Fastq</prov:type>
+  </prov:entity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_8008a7fc-6908-4b79-b7a8-29abf1d9fbd9" />
+    <prov:activity prov:ref="kimlab:_7444d4bd-24fd-41e0-a72c-1c6cf2815779" />
+  </prov:wasGeneratedBy>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_7444d4bd-24fd-41e0-a72c-1c6cf2815779"/>
+    <prov:entity prov:ref="kimlab:_c4d7781c-0ea9-429d-83e7-ccb9634ded1a"/>
+  </prov:used>
+
+  <prov:activity prov:id="kimlab:_c4bf1136-c706-4d3e-8271-b83df2ff3ec7">
+    <kimlab:blast-species>hg38.gencode21.stranded</kimlab:blast-species>
+    <kimlab:blast-readlength xsi:type="xsd:integer">100</kimlab:blast-readlength>
+    <kimlab:blast-numreads xsi:type="xsd:integer">5000</kimlab:blast-numreads>
+    <kimlab:blast-kmer>TATAGTGAGT</kimlab:blast-kmer>
+  </prov:activity>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_c4bf1136-c706-4d3e-8271-b83df2ff3ec7" />
+    <prov:agent prov:ref="kimlab:_aa7c3fa8-b503-3b3c-bda5-f39c91fc0a87" />
+    <prov:plan prov:ref="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineBlast</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_c4bf1136-c706-4d3e-8271-b83df2ff3ec7" />
+    <prov:agent prov:ref="kimlab:_74f7c7fb-9f70-4511-b71b-97c6fd42e1ac" />
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_c4bf1136-c706-4d3e-8271-b83df2ff3ec7" />
+    <prov:entity prov:ref="kimlab:_81ca46c2-2ee0-37d0-af3c-7ba283c20e59" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_c4bf1136-c706-4d3e-8271-b83df2ff3ec7"/>
+    <prov:entity prov:ref="kimlab:_8008a7fc-6908-4b79-b7a8-29abf1d9fbd9"/>
+  </prov:used>
+
+  <prov:activity prov:id="kimlab:_1d16532b-8a67-4bc1-894d-4d34662e89de">
+  </prov:activity>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_1d16532b-8a67-4bc1-894d-4d34662e89de" />
+    <prov:agent prov:ref="kimlab:_1aebed36-ebf6-4922-b1f7-8829562d0100" />
+    <prov:plan prov:ref="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineFastQC</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_1d16532b-8a67-4bc1-894d-4d34662e89de"/>
+    <prov:entity prov:ref="kimlab:_8008a7fc-6908-4b79-b7a8-29abf1d9fbd9"/>
+  </prov:used>
+
+  <prov:entity prov:id="kimlab:_ff2132d3-1317-4156-b65a-aedc66d9f5bb">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Fastq</prov:type>
+    <foaf:name>unaligned_1.fq</foaf:name>
+  </prov:entity>
+
+  <prov:entity prov:id="kimlab:_07595359-3b40-46be-a2f1-d485d522409b">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Fastq</prov:type>
+    <foaf:name>unaligned_2.fq</foaf:name>
+  </prov:entity>
+
+  <prov:activity prov:id="kimlab:_97c2f01d-5275-4e9f-bf87-5d63e858d34e">
+    <kimlab:trim-minlen xsi:type="xsd:integer">20</kimlab:trim-minlen>
+    <kimlab:trim-remove-n xsi:type="xsd:boolean">1</kimlab:trim-remove-n>
+    <kimlab:trim-num-at xsi:type="xsd:integer">26</kimlab:trim-num-at>
+    <kimlab:trim-se xsi:type="xsd:boolean">0</kimlab:trim-se>
+    <kimlab:trim-phred-thresh xsi:type="xsd:integer">53</kimlab:trim-phred-thresh>
+    <kimlab:trim-contamfile>/lab/repo/resources/trim/contaminants.fa</kimlab:trim-contamfile>
+  </prov:activity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_ff2132d3-1317-4156-b65a-aedc66d9f5bb" />
+    <prov:activity prov:ref="kimlab:_97c2f01d-5275-4e9f-bf87-5d63e858d34e" />
+  </prov:wasGeneratedBy>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_07595359-3b40-46be-a2f1-d485d522409b" />
+    <prov:activity prov:ref="kimlab:_97c2f01d-5275-4e9f-bf87-5d63e858d34e" />
+  </prov:wasGeneratedBy>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_97c2f01d-5275-4e9f-bf87-5d63e858d34e" />
+    <prov:agent prov:ref="kimlab:_5e76c0d1-e2d0-36bb-bd32-226d83e03440" />
+    <prov:plan prov:ref="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineTrim</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_97c2f01d-5275-4e9f-bf87-5d63e858d34e" />
+    <prov:entity prov:ref="kimlab:_dc2662c6-7934-3da3-b102-a0f34f95eb0f" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_97c2f01d-5275-4e9f-bf87-5d63e858d34e"/>
+    <prov:entity prov:ref="kimlab:_8008a7fc-6908-4b79-b7a8-29abf1d9fbd9"/>
+  </prov:used>
+
+  <prov:entity prov:id="kimlab:_15e1c4be-6008-4192-982b-b6d8b56bb970">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Bam</prov:type>
+    <foaf:name>Sample_BRP81.star.unique.bam</foaf:name>
+  </prov:entity>
+
+  <prov:activity prov:id="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a">
+    <kimlab:star-species-genome>hg38.gencode21.stranded</kimlab:star-species-genome>
+    <kimlab:star-readlength xsi:type="xsd:integer">100</kimlab:star-readlength>
+    <kimlab:star-se xsi:type="xsd:boolean">0</kimlab:star-se>
+  </prov:activity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_15e1c4be-6008-4192-982b-b6d8b56bb970" />
+    <prov:activity prov:ref="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a" />
+  </prov:wasGeneratedBy>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a" />
+    <prov:agent prov:ref="kimlab:_c497aaf0-324c-3174-b855-c4a049e40910" />
+    <prov:plan prov:ref="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineStar</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a" />
+    <prov:agent prov:ref="kimlab:_2891f58e-d39b-3a29-a251-3868ddb73513" />
+    <prov:plan prov:ref="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineStar</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a" />
+    <prov:entity prov:ref="kimlab:_5382f1ae-9a7b-345b-8d4b-0897a4f092ea" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a" />
+    <prov:entity prov:ref="kimlab:_ff2132d3-1317-4156-b65a-aedc66d9f5bb" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_c13bf741-8e8f-4bb4-b1a5-8ca3f2b8495a" />
+    <prov:entity prov:ref="kimlab:_07595359-3b40-46be-a2f1-d485d522409b" />
+  </prov:used>
+
+  <prov:entity prov:id="kimlab:_33bdac3b-a765-4a27-a511-d7cfec4672f0">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Text</prov:type>
+    <foaf:name>Sample_BRP81.verse.exon.cnts.txt</foaf:name>
+  </prov:entity>
+
+  <prov:activity prov:id="kimlab:_0b6b6270-ad03-423e-9d32-54b08915f974">
+    <kimlab:verse-stranded xsi:type="xsd:boolean">1</kimlab:verse-stranded>
+    <kimlab:verse-id-attribute>gene_name</kimlab:verse-id-attribute>
+    <kimlab:verse-introns xsi:type="xsd:boolean">1</kimlab:verse-introns>
+    <kimlab:verse-intergenic xsi:type="xsd:boolean">1</kimlab:verse-intergenic>
+    <kimlab:verse-lines-sines xsi:type="xsd:boolean">1</kimlab:verse-lines-sines>
+  </prov:activity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_33bdac3b-a765-4a27-a511-d7cfec4672f0" />
+    <prov:activity prov:ref="kimlab:_0b6b6270-ad03-423e-9d32-54b08915f974" />
+  </prov:wasGeneratedBy>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_0b6b6270-ad03-423e-9d32-54b08915f974" />
+    <prov:agent prov:ref="kimlab:_0b9607bf-7452-38a6-895d-db7f3775c73f" />
+    <prov:plan prov:ref="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineVerse</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_0b6b6270-ad03-423e-9d32-54b08915f974" />
+    <prov:entity prov:ref="kimlab:_2ba8c7fc-784f-3f89-a3f3-3b06242e595f" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_0b6b6270-ad03-423e-9d32-54b08915f974" />
+    <prov:entity prov:ref="kimlab:_15e1c4be-6008-4192-982b-b6d8b56bb970" />
+  </prov:used>
+
+ 
+</prov:document>

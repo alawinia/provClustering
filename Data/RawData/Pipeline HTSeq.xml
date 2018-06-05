@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/provDefs/"
+			   >
+
+    <!-- Definitions for HTSeq module in pipeline. -->
+
+    <!-- ENTITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:entity prov:id="kimlab:_40861dd1-6155-4a2c-bad4-bad120165873">
+		<!-- should denote that this was created from the transcriptome -->
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibraryVerse</prov:type>
+		<foaf:name>hg19.gencode18.100.gtf</foaf:name>
+		<pp:location>/lab/repo/resources/htseq/</pp:location>
+		<!-- could include creation date, MD5, etc -->
+	</prov:entity>
+	
+    <!-- AGENT xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:agent prov:id="kimlab:_92411441-7716-48f2-a608-3d0b72e2fa08">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>verse</foaf:name>
+		<pp:version>0.5.4p5</pp:version>
+		<!-- could include location, MD5, etc -->
+	</prov:agent>
+	
+    <!-- PROPERTIES xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_40861dd1-6155-4a2c-bad4-bad120165873"/>
+		<prov:usedEntity prov:ref="kimlab:_74fcfe3b-c3cc-40eb-8972-e7fac0971e6a"/>
+	</prov:wasDerivedFrom>
+
+</prov:document>
+

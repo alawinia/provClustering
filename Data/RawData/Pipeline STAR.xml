@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/provDefs/"
+			   xmlns:kimlab-star="http://kim.bio.upenn.edu/provDefs/star#"
+			   >
+
+    <!-- Definitions for STAR module in pipeline. This includes the
+         construction of the STAR library. -->
+
+	<!-- We're ignoring the fact that a STAR library should be
+	     associated with an individual version of STAR (i.e. the
+	     version of STAR that was used to create the library. Hence
+	     there should be a unique STAR library per STAR version,
+	     genome, transcriptome, and read-length. -->
+	
+    <!-- ENTITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:entity prov:id="kimlab:_5382f1ae-9a7b-345b-8d4b-0897a4f092ea">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>hg38.gencode21.stranded</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_07fce625-61e1-46f9-9271-7a292a062c93">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>hg38.gencode21.stranded.75</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_a3ee31c7-ed50-4969-b89f-4101df874622">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>hg38.gencode25.100</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_c10f9ac4-c608-4974-9be2-71573c577798">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>hg38.gencode25.75</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_3a556cd8-b31b-43cf-8dd4-8f0d46113e95">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>GRCz10</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_c80930bc-5e14-4164-ab06-f7548d7b50b1">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>mm10</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_a33cd34d-1f4a-49ed-bd58-8d4e5134933a">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>rn6</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+
+	<prov:entity prov:id="kimlab:_178309ba-fd4d-4e8a-9a52-01a73c90d68c">
+		<prov:type xsi:type="xsd:QName">pp:File</prov:type>
+		<prov:type xsi:type="xsd:QName">kimlab:LibrarySTAR</prov:type>
+		<foaf:name>hg19.gencode18.100</foaf:name>
+		<pp:location>/lab/repo/resources/star/</pp:location>
+	</prov:entity>
+	
+    <!-- AGENT xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:agent prov:id="kimlab:_8d53cbca-f885-4fbe-9534-fc60d7d22b55">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>STAR</foaf:name>
+		<pp:version>2.5.1b</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_40f2a66f-7e98-4d6c-b47d-0066f1136ba9">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>STAR</foaf:name>
+		<pp:version>2.4.0j</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_c497aaf0-324c-3174-b855-c4a049e40910">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>STAR</foaf:name>
+		<pp:version>2.4.0h1</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_839bb1b7-2118-4567-bc8d-8fb877d6d757">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>STAR</foaf:name>
+		<pp:version>2.3.0.1</pp:version>
+	</prov:agent>
+	
+	<prov:agent prov:id="kimlab:_2891f58e-d39b-3a29-a251-3868ddb73513">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>samtools</foaf:name>
+		<pp:version>1.1</pp:version>
+		<pp:source>http://samtools.sourceforge.net</pp:source>
+	</prov:agent>
+
+	<prov:agent prov:id="kimlab:_d7d2cb12-c593-4742-a3d4-05e748c85685">
+		<prov:type>prov:SoftwareAgent</prov:type>
+		<foaf:name>samtools</foaf:name>
+		<pp:version>1.2</pp:version>
+		<pp:source>http://samtools.sourceforge.net</pp:source>
+	</prov:agent>
+
+    <!-- ACTIVITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:activity prov:id="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42">
+		<kimlab-star:sjdb-overhang>99</kimlab-star:sjdb-overhang>
+	</prov:activity>
+	
+	<prov:activity prov:id="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8">
+		<kimlab-star:sjdb-overhang>74</kimlab-star:sjdb-overhang>
+	</prov:activity>
+	
+    <!-- PROPERTIES xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<!-- v2.5.1b -->
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+		<prov:agent prov:ref="kimlab:_8d53cbca-f885-4fbe-9534-fc60d7d22b55" />
+	</prov:wasAssociatedWith>
+	
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+		<prov:agent prov:ref="kimlab:_8d53cbca-f885-4fbe-9534-fc60d7d22b55" />
+	</prov:wasAssociatedWith>
+	
+	<!-- v2.4.0j -->
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+		<prov:agent prov:ref="kimlab:_40f2a66f-7e98-4d6c-b47d-0066f1136ba9" />
+	</prov:wasAssociatedWith>
+	
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+		<prov:agent prov:ref="kimlab:_40f2a66f-7e98-4d6c-b47d-0066f1136ba9" />
+	</prov:wasAssociatedWith>
+	
+	<!-- v2.4.0h1 -->
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+		<prov:agent prov:ref="kimlab:_c497aaf0-324c-3174-b855-c4a049e40910" />
+	</prov:wasAssociatedWith>
+	
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+		<prov:agent prov:ref="kimlab:_c497aaf0-324c-3174-b855-c4a049e40910" />
+	</prov:wasAssociatedWith>
+	
+	<!-- v2.3.0.1 -->
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+		<prov:agent prov:ref="kimlab:_839bb1b7-2118-4567-bc8d-8fb877d6d757" />
+	</prov:wasAssociatedWith>
+	
+	<prov:wasAssociatedWith>
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+		<prov:agent prov:ref="kimlab:_839bb1b7-2118-4567-bc8d-8fb877d6d757" />
+	</prov:wasAssociatedWith>
+	
+	<!-- hg38.gencode21.stranded (100) -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_5382f1ae-9a7b-345b-8d4b-0897a4f092ea" />
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_5382f1ae-9a7b-345b-8d4b-0897a4f092ea"/>
+		<prov:usedEntity prov:ref="kimlab:_3e4c465a-6aab-3deb-b17e-7559560bae4c"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_5382f1ae-9a7b-345b-8d4b-0897a4f092ea"/>
+		<prov:usedEntity prov:ref="kimlab:_d5a5d310-6ad0-3549-9ed3-116845d7a41f"/>
+	</prov:wasDerivedFrom>
+
+	<!-- hg38.gencode21.stranded.75 -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_07fce625-61e1-46f9-9271-7a292a062c93" />
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_07fce625-61e1-46f9-9271-7a292a062c93"/>
+		<prov:usedEntity prov:ref="kimlab:_3e4c465a-6aab-3deb-b17e-7559560bae4c"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_07fce625-61e1-46f9-9271-7a292a062c93"/>
+		<prov:usedEntity prov:ref="kimlab:_d5a5d310-6ad0-3549-9ed3-116845d7a41f"/>
+	</prov:wasDerivedFrom>
+
+	<!-- hg38.gencode25.100 -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_a3ee31c7-ed50-4969-b89f-4101df874622" />
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_a3ee31c7-ed50-4969-b89f-4101df874622"/>
+		<prov:usedEntity prov:ref="kimlab:_3e4c465a-6aab-3deb-b17e-7559560bae4c"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_a3ee31c7-ed50-4969-b89f-4101df874622"/>
+		<prov:usedEntity prov:ref="kimlab:_13aaa61b-bf97-3452-bc74-add65ebe04a0"/>
+	</prov:wasDerivedFrom>
+
+	<!-- hg38.gencode25.75 -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_c10f9ac4-c608-4974-9be2-71573c577798" />
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_c10f9ac4-c608-4974-9be2-71573c577798"/>
+		<prov:usedEntity prov:ref="kimlab:_3e4c465a-6aab-3deb-b17e-7559560bae4c"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_c10f9ac4-c608-4974-9be2-71573c577798"/>
+		<prov:usedEntity prov:ref="kimlab:_13aaa61b-bf97-3452-bc74-add65ebe04a0"/>
+	</prov:wasDerivedFrom>
+
+	<!-- GRCz10 (100) -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_3a556cd8-b31b-43cf-8dd4-8f0d46113e95" />
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_3a556cd8-b31b-43cf-8dd4-8f0d46113e95"/>
+		<prov:usedEntity prov:ref="kimlab:_60159cae-1ead-3035-a2bd-c1688e91d053"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_3a556cd8-b31b-43cf-8dd4-8f0d46113e95"/>
+		<prov:usedEntity prov:ref="kimlab:_1512553a-d06f-41a5-92a1-ca6b591993e8"/>
+	</prov:wasDerivedFrom>
+
+	<!-- mm10 (75) -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_c80930bc-5e14-4164-ab06-f7548d7b50b1" />
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_c80930bc-5e14-4164-ab06-f7548d7b50b1"/>
+		<prov:usedEntity prov:ref="kimlab:_e5241e20-01ad-3cb2-bac3-d50aa74139c0"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_c80930bc-5e14-4164-ab06-f7548d7b50b1"/>
+		<prov:usedEntity prov:ref="kimlab:_aeb97a0e-63f4-41ed-9afe-9fef367b525b"/>
+	</prov:wasDerivedFrom>
+
+	<!-- rn6 (75) -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_a33cd34d-1f4a-49ed-bd58-8d4e5134933a" />
+		<prov:activity prov:ref="kimlab:_bc33973f-38c5-4309-8025-5814a1fdbbb8" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_a33cd34d-1f4a-49ed-bd58-8d4e5134933a"/>
+		<prov:usedEntity prov:ref="kimlab:_a8d29da6-7535-3442-bc69-71c47d4b105e"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_a33cd34d-1f4a-49ed-bd58-8d4e5134933a"/>
+		<prov:usedEntity prov:ref="kimlab:_f63f92bc-d387-4945-a60c-1de6d6122dbc"/>
+	</prov:wasDerivedFrom>
+
+	<!-- hg19.gencode18.100 -->
+	<prov:wasGeneratedBy>
+		<prov:entity prov:ref="kimlab:_178309ba-fd4d-4e8a-9a52-01a73c90d68c" />
+		<prov:activity prov:ref="kimlab:_00c5816f-d30d-3751-b5a3-486d65dd7d42" />
+	</prov:wasGeneratedBy>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_178309ba-fd4d-4e8a-9a52-01a73c90d68c"/>
+		<prov:usedEntity prov:ref="kimlab:_77396ac0-5957-4ee9-a41e-71bd86523e17"/>
+	</prov:wasDerivedFrom>
+	
+	<prov:wasDerivedFrom>
+		<prov:generatedEntity prov:ref="kimlab:_178309ba-fd4d-4e8a-9a52-01a73c90d68c"/>
+		<prov:usedEntity prov:ref="kimlab:_74fcfe3b-c3cc-40eb-8972-e7fac0971e6a"/>
+	</prov:wasDerivedFrom>
+
+</prov:document>

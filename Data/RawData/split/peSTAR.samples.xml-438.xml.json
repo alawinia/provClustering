@@ -1,0 +1,32 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_2d2c115c-06ff-4bc8-b109-61169af6baf4",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg38.gencode25.100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-se": "0"
+            }
+        },
+        {
+            "name": "kimlab:_9600e8f2-e58d-4824-9d31-4a69273af05a",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-stranded": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-introns": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-intergenic": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-lines-sines": "1"
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_9600e8f2-e58d-4824-9d31-4a69273af05a",
+            "target": "kimlab:_2d2c115c-06ff-4bc8-b109-61169af6baf4",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

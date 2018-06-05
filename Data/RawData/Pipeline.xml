@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/provDefs/"
+			   >
+
+    <!-- Overall definitions for pipeline. -->
+
+    <!-- ENTITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+	<prov:entity prov:id="kimlab:_73e39c83-4733-4b15-9267-9ab5da075c6f">
+		<prov:type>prov:Plan</prov:type>
+		<pp:version>2.1</pp:version>
+	</prov:entity>
+	
+	<prov:entity prov:id="kimlab:_91fa3e00-546b-47ad-9e68-51b4340047f5">
+		<prov:type>prov:Plan</prov:type>
+		<pp:version>2.0.1</pp:version>
+	</prov:entity>
+	
+	<prov:entity prov:id="kimlab:_452d90fe-47e8-49ef-8709-57f37bf2d595">
+		<prov:type>prov:Plan</prov:type>
+		<pp:version>2.0.1-alpha</pp:version>
+	</prov:entity>
+	
+	<prov:entity prov:id="kimlab:_2b8c4199-01ac-33ae-9332-dad7d96bd293">
+		<prov:type>prov:Plan</prov:type>
+		<pp:version>2.0</pp:version>
+	</prov:entity>
+	
+	<prov:entity prov:id="kimlab:_3898a801-c550-4c6f-b633-5c2c0f06be8f">
+		<prov:type>prov:Plan</prov:type>
+		<pp:version>1.0</pp:version>
+	</prov:entity>
+	
+</prov:document>
+

@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "name": "kimlab:_cf29ca0a-71bd-485b-8f71-23e8d16d15e5",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-species": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-numreads": "5000",
+                "{http://kim.bio.upenn.edu/o/sequencing#}blast-kmer": "TATAGTGAGT"
+            }
+        },
+        {
+            "name": "kimlab:_44dc78a7-0fec-4f9f-a647-c3497126b6d1",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-minlen": "20",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-remove-n": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-num-at": "26",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-se": "0",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-phred-thresh": "53",
+                "{http://kim.bio.upenn.edu/o/sequencing#}trim-contamfile": "/lab/repo/resources/trim/contaminants.fa"
+            }
+        },
+        {
+            "name": "kimlab:_62d81045-d983-4adb-8f79-43d689ca25e4",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-species-genome": "hg38.gencode21.stranded",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-readlength": "100",
+                "{http://kim.bio.upenn.edu/o/sequencing#}star-se": "0"
+            }
+        },
+        {
+            "name": "kimlab:_b97c1289-b72d-47f9-85c0-0bfe5611fd8e",
+            "group": 1,
+            "attributes": {
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-stranded": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-id-attribute": "gene_name",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-introns": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-intergenic": "1",
+                "{http://kim.bio.upenn.edu/o/sequencing#}verse-lines-sines": "1"
+            }
+        },
+        {
+            "name": "kimlab:_a61a4e9c-7c5e-482c-b758-657e7c34b9bf",
+            "group": 1,
+            "attributes": {
+                "{http://www.w3.org/ns/prov#}type": "kimlab:SequencingRun",
+                "{http://purl.obolibrary.org/obo/}MS_1002120": "231",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000069": "2015-04-06",
+                "{http://kim.bio.upenn.edu/o/sequencing#}description": "BRP153-156-cond2c & BRP157-160-cond2d",
+                "{http://purl.obolibrary.org/obo/}GENEPIO_0000081": "Illumina CT-402-4001, PE-402-4001, FC-402-4001",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000020": "100",
+                "{http://purl.obolibrary.org/obo/}OBI_0600047": "transcript analysis by paired-end tag sequencing",
+                "{http://kim.bio.upenn.edu/o/}ORNASEQ_0000045": "CASAVA v1.8.2",
+                "{http://kim.bio.upenn.edu/o/sequencing#}experiment-notes": "231"
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "kimlab:_cf29ca0a-71bd-485b-8f71-23e8d16d15e5",
+            "target": "kimlab:_a61a4e9c-7c5e-482c-b758-657e7c34b9bf",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_44dc78a7-0fec-4f9f-a647-c3497126b6d1",
+            "target": "kimlab:_a61a4e9c-7c5e-482c-b758-657e7c34b9bf",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_62d81045-d983-4adb-8f79-43d689ca25e4",
+            "target": "kimlab:_44dc78a7-0fec-4f9f-a647-c3497126b6d1",
+            "name": "linkto",
+            "weight": 1
+        },
+        {
+            "source": "kimlab:_b97c1289-b72d-47f9-85c0-0bfe5611fd8e",
+            "target": "kimlab:_62d81045-d983-4adb-8f79-43d689ca25e4",
+            "name": "linkto",
+            "weight": 1
+        }
+    ]
+}

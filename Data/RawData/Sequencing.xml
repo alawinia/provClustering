@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:obo="http://purl.obolibrary.org/obo/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/provDefs/"
+			   >
+	
+    <!-- Definitions pertaining to sequencing and used by SequencingRun -->
+    
+    <!-- ENTITY xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+    <prov:entity prov:id="kimlab:_42030dd9-897b-34b5-982b-795413531837">
+		<prov:type xsi:type="xsd:QName">kimlab:Sequencer</prov:type>
+		<obo:OBI_0000835>Illumina</obo:OBI_0000835>
+		<obo:IAO_0000017>HiSeq 2500</obo:IAO_0000017>
+    </prov:entity>
+
+    <prov:entity prov:id="kimlab:_76cbbe74-9c5c-4904-a9ca-7e957d324a9b">
+		<prov:type xsi:type="xsd:QName">kimlab:Sequencer</prov:type>
+		<obo:OBI_0000835>Illumina</obo:OBI_0000835>
+		<obo:IAO_0000017>NextSeq 500</obo:IAO_0000017>
+    </prov:entity>
+
+    <!-- AGENT xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+    <prov:agent prov:id="kimlab:_8f6555e4-0c93-39df-b77c-f017e09f9482" xsi:type="prov:Organization">
+		<foaf:name>FGC</foaf:name>
+    </prov:agent>
+    
+    <prov:agent prov:id="kimlab:_1422f0a4-2b86-360c-9a3c-8f5b86079cb2" xsi:type="prov:Organization">
+		<foaf:name>inHouse</foaf:name>
+    </prov:agent>
+    
+    <prov:agent prov:id="kimlab:_0350ef03-e88e-434e-b9c6-0cc0f371fcee" xsi:type="prov:Organization">
+		<foaf:name>CSH</foaf:name>
+    </prov:agent>
+    
+    <prov:agent prov:id="kimlab:_b7cd5422-4615-33df-875f-58e9563120c9" xsi:type="prov:Person">
+		<foaf:name>J. Kim</foaf:name>
+    </prov:agent>
+    
+    <prov:agent prov:id="kimlab:_ec4b35ea-6282-3267-a216-1f10b4650c32" xsi:type="prov:Person">
+		<foaf:name>J. Eberwine</foaf:name>
+    </prov:agent>
+
+    <prov:agent prov:id="kimlab:_2cc0a8f3-915b-4b30-b095-500bf92e7fc1" xsi:type="prov:Person">
+		<foaf:name>J. Raper</foaf:name>
+    </prov:agent>
+
+    <prov:agent prov:id="kimlab:_e67d964b-efff-46b1-82b5-5defc1a6518d" xsi:type="prov:Person">
+		<foaf:name>Y. Choi</foaf:name>
+    </prov:agent>
+
+</prov:document>

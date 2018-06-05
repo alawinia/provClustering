@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			   xmlns:prov="http://www.w3.org/ns/prov#"
+			   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			   xmlns:pp="http://www.pennprovenance.net/provDefs/"
+			   xmlns:obo="http://purl.obolibrary.org/obo/"
+			   xmlns:efo="http://www.ebi.ac.uk/efo/"
+			   xmlns:ornaseq="http://kim.bio.upenn.edu/o/"
+			   xmlns:kimlab="http://kim.bio.upenn.edu/o/sequencing#"
+			   >
+
+  <prov:entity prov:id="kimlab:_4e49bf08-23ec-4646-99fa-d5e975075137">
+    <obo:IAO_0000577>UHRR100ng1b</obo:IAO_0000577>
+    <kimlab:lane>U1-U2-cm366</kimlab:lane>
+    <kimlab:barcodeidx>5</kimlab:barcodeidx>
+    <obo:OBI_0001895>Agilent 740000</obo:OBI_0001895>
+    <obo:OMIABIS_0001039 xsi:type="xsd:date">1970-01-01</obo:OMIABIS_0001039>
+    <kimlab:first-strand-amp-by></kimlab:first-strand-amp-by>
+    <kimlab:first-strand-amp-date xsi:type="xsd:date">1999-01-01</kimlab:first-strand-amp-date>
+    <ornaseq:ORNASEQ_0000014>J. Wang</ornaseq:ORNASEQ_0000014>
+    <ornaseq:ORNASEQ_0000005 xsi:type="xsd:date">2015-01-09</ornaseq:ORNASEQ_0000005>
+    <ornaseq:ORNASEQ_0000015>J. Wang</ornaseq:ORNASEQ_0000015>
+    <ornaseq:ORNASEQ_0000006 xsi:type="xsd:date">2015-01-20</ornaseq:ORNASEQ_0000006>
+    <obo:TAXRANK_0000031>human</obo:TAXRANK_0000031>
+    <obo:OBI_0001185>N/A</obo:OBI_0001185>
+    <obo:OBI_0001169>unknown</obo:OBI_0001169>
+    <obo:OBI_0000659>unknown</obo:OBI_0000659>
+    <ornaseq:ORNASEQ_0000033>100ng</ornaseq:ORNASEQ_0000033>
+    <ornaseq:ORNASEQ_0000028>N/A</ornaseq:ORNASEQ_0000028>
+    <kimlab:is-harvest-compound-uncaged></kimlab:is-harvest-compound-uncaged>
+    <obo:UBERON_0000465>mixed</obo:UBERON_0000465>
+    <ornaseq:ORNASEQ_0000026></ornaseq:ORNASEQ_0000026>
+    <obo:CL_0000000>N/A</obo:CL_0000000>
+    <obo:CL_2000029></obo:CL_2000029>
+    <obo:OBI_0000018>Agilent</obo:OBI_0000018>
+    <ornaseq:ORNASEQ_0000034>purchased from Agilent 740000 (UHRR)</ornaseq:ORNASEQ_0000034>
+    <ornaseq:ORNASEQ_0000035>bulk</ornaseq:ORNASEQ_0000035>
+    <obo:GO_0044464>N/A</obo:GO_0044464>
+    <obo:OBI_0000097></obo:OBI_0000097>
+    <kimlab:cell-id></kimlab:cell-id>
+    <kimlab:dendrite-id></kimlab:dendrite-id>
+    <kimlab:source-well-id></kimlab:source-well-id>
+    <obo:OGMS_0000090>n/a</obo:OGMS_0000090>
+    <efo:EFO_0000683></efo:EFO_0000683>
+    <obo:OBI_0600058>aRNA</obo:OBI_0600058>
+    <ornaseq:ORNASEQ_0000022 xsi:type="xsd:integer">1</ornaseq:ORNASEQ_0000022>
+    <obo:OBI_0001967>ACAGTG</obo:OBI_0001967>
+    <ornaseq:ORNASEQ_0000029>none</ornaseq:ORNASEQ_0000029>
+    <ornaseq:ORNASEQ_0000030>200ng</ornaseq:ORNASEQ_0000030>
+    <obo:GENEPIO_0000085>Illumina TruSeq Stranded (RS-122-2101/2)</obo:GENEPIO_0000085>
+    <kimlab:strand-specific xsi:type="xsd:boolean">1</kimlab:strand-specific>
+    <ornaseq:ORNASEQ_0000021>15</ornaseq:ORNASEQ_0000021>
+    <ornaseq:ORNASEQ_0000009>Spaethling U01 aRNA protocol 11-19-13</ornaseq:ORNASEQ_0000009>
+    <ornaseq:ORNASEQ_0000017>Spaethling Truseq stranded 4-17-14</ornaseq:ORNASEQ_0000017>
+    <ornaseq:ORNASEQ_0000007></ornaseq:ORNASEQ_0000007>
+    <kimlab:notes>1st round RNA for library. Universal human reference RNA</kimlab:notes>
+  </prov:entity>
+
+  <prov:entity prov:id="kimlab:_2c468fa8-87cc-4f77-b7e1-10a387ce2bb4">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Fastq</prov:type>
+  </prov:entity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_2c468fa8-87cc-4f77-b7e1-10a387ce2bb4" />
+    <prov:activity prov:ref="kimlab:_f51d24b5-b8d6-41ec-a643-845f5c26bbc6" />
+  </prov:wasGeneratedBy>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_f51d24b5-b8d6-41ec-a643-845f5c26bbc6"/>
+    <prov:entity prov:ref="kimlab:_4e49bf08-23ec-4646-99fa-d5e975075137"/>
+  </prov:used>
+
+  <prov:entity prov:id="kimlab:_ab07f809-4328-4d12-a62c-5aac3ea5098f">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Bam</prov:type>
+    <foaf:name>Sample_UHRR100ng1b.star.unique.bam</foaf:name>
+  </prov:entity>
+
+  <prov:activity prov:id="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff">
+    <kimlab:star-species-genome>hg38.gencode25.100</kimlab:star-species-genome>
+    <kimlab:star-readlength xsi:type="xsd:integer">100</kimlab:star-readlength>
+    <kimlab:star-se xsi:type="xsd:boolean">0</kimlab:star-se>
+  </prov:activity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_ab07f809-4328-4d12-a62c-5aac3ea5098f" />
+    <prov:activity prov:ref="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff" />
+  </prov:wasGeneratedBy>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff" />
+    <prov:agent prov:ref="kimlab:_8d53cbca-f885-4fbe-9534-fc60d7d22b55" />
+    <prov:plan prov:ref="kimlab:_73e39c83-4733-4b15-9267-9ab5da075c6f" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineStar</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff" />
+    <prov:agent prov:ref="kimlab:_d7d2cb12-c593-4742-a3d4-05e748c85685" />
+    <prov:plan prov:ref="kimlab:_73e39c83-4733-4b15-9267-9ab5da075c6f" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineStar</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff" />
+    <prov:entity prov:ref="kimlab:_a3ee31c7-ed50-4969-b89f-4101df874622" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff" />
+    <prov:entity prov:ref="kimlab:_8ca44a1e-b812-425d-9591-fb3ee73d3923" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_d3d66015-0388-4c64-8c06-d2d1c14035ff" />
+    <prov:entity prov:ref="kimlab:_062e9662-bc55-4c25-a98a-cceb7445cec9" />
+  </prov:used>
+
+  <prov:entity prov:id="kimlab:_c03a54b0-1d55-4f83-aca5-ae9bdfd08a4d">
+    <prov:type xsi:type="xsd:QName">pp:File</prov:type>
+    <prov:type xsi:type="xsd:QName">kimlab:Text</prov:type>
+    <foaf:name>Sample_UHRR100ng1b.verse.exon.cnts.txt</foaf:name>
+  </prov:entity>
+
+  <prov:activity prov:id="kimlab:_0d9c1e1b-5e6c-4123-bd44-178891ca10f3">
+    <kimlab:verse-stranded xsi:type="xsd:boolean">1</kimlab:verse-stranded>
+    <kimlab:verse-id-attribute>gene_name</kimlab:verse-id-attribute>
+    <kimlab:verse-introns xsi:type="xsd:boolean">1</kimlab:verse-introns>
+    <kimlab:verse-intergenic xsi:type="xsd:boolean">1</kimlab:verse-intergenic>
+    <kimlab:verse-lines-sines xsi:type="xsd:boolean">1</kimlab:verse-lines-sines>
+  </prov:activity>
+
+  <prov:wasGeneratedBy>
+    <prov:entity prov:ref="kimlab:_c03a54b0-1d55-4f83-aca5-ae9bdfd08a4d" />
+    <prov:activity prov:ref="kimlab:_0d9c1e1b-5e6c-4123-bd44-178891ca10f3" />
+  </prov:wasGeneratedBy>
+
+  <prov:wasAssociatedWith>
+    <prov:activity prov:ref="kimlab:_0d9c1e1b-5e6c-4123-bd44-178891ca10f3" />
+    <prov:agent prov:ref="kimlab:_e33cbc6c-38cb-4104-a455-133af9310c88" />
+    <prov:plan prov:ref="kimlab:_73e39c83-4733-4b15-9267-9ab5da075c6f" />
+    <prov:role xsi:type="xsd:QName">kimlab:PipelineVerse</prov:role>
+  </prov:wasAssociatedWith>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_0d9c1e1b-5e6c-4123-bd44-178891ca10f3" />
+    <prov:entity prov:ref="kimlab:_29e4611a-d054-46ff-967a-21009ee0adae" />
+  </prov:used>
+
+  <prov:used>
+    <prov:activity prov:ref="kimlab:_0d9c1e1b-5e6c-4123-bd44-178891ca10f3" />
+    <prov:entity prov:ref="kimlab:_ab07f809-4328-4d12-a62c-5aac3ea5098f" />
+  </prov:used>
+
+ 
+</prov:document>
